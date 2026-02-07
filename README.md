@@ -21,6 +21,9 @@ A **Java-based Student Result Management System** demonstrating **OOP concepts**
 
 ## Technologies & Concepts
 -Java 
+
 -OOP Principles
+
 -Design Patterns: Chain of Responsibility, Facade
+
 -SOLID Principles: Open–Closed Principle
