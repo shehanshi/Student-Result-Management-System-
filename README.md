@@ -7,7 +7,7 @@ This is a Java-based Student Result Management System demonstrating object-orien
         
         Open–Closed Principle (OCP) – GPA calculation is dynamic and extendable, allowing multiple calculation strategies without modifying existing code.
         
-##Features
+#Features
 
         1.Login Validation: Only student IDs containing "UWU" are considered valid. Invalid IDs stop the process.
         
@@ -18,7 +18,7 @@ This is a Java-based Student Result Management System demonstrating object-orien
         4.GPA Calculation: Each student’s GPA is calculated based on their individual grades. Supports adding new GPA calculation strategies easily.
         
         5.Result Reporting: Generates a detailed report including student ID, name, faculty, degree, and GPA.
-##How to Use
+#How to Use
 
         1.Run (Main.java).
         
@@ -33,6 +33,6 @@ This is a Java-based Student Result Management System demonstrating object-orien
                Generate the result report
                
         4.Invalid student IDs will show Login Unsuccessful and stop the process.
-##Example Run
+#Example Run
 <img width="745" height="661" alt="image" src="https://github.com/user-attachments/assets/3c6dabfd-5059-4e73-99ee-6048eb9cd0e9" />
 
