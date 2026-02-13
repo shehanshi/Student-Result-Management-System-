@@ -29,10 +29,11 @@ public class ResultFacade {
         // Get student's grades
         String grades = db.getGrades(studentId);
 
-        // Calculate GPA dynamically
+        // Calculate GPA
         double gpa = gpaCalculator.calculateGPA(grades);
 
         // Generate report
         report.generateReport(studentId, name, faculty, degree, gpa);
     }
 }
+
