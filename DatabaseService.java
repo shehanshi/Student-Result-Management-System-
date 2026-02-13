@@ -9,12 +9,12 @@
  */
 import java.util.HashMap;
 import java.util.Map;
-//Subsystem class : fetch student grades from database
+//Subsystem class
 public class DatabaseService {
      private Map<String, String[]> studentData = new HashMap<>();
     private Map<String, String> gradesData = new HashMap<>();
 
-    // Constructor: add mulsttiple students
+    // Constructor: add multiple students
     public DatabaseService(){
         // Student info: {Name, Faculty, Degree}
         studentData.put("UWU/ICT/21/004", new String[]{"Ladeesha Shehanshi", "Faculty of Technological Studies", "Information & Communication Technology"});
@@ -38,3 +38,4 @@ public class DatabaseService {
         return gradesData.getOrDefault(studentId, "F,F,F");
     }
 }
+
